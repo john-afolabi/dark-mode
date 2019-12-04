@@ -25,8 +25,7 @@ export default function CoinPage(props) {
       <div className="coin__logo">
         <img src={coinData.image.thumb} height="40" alt={coinData.name} />
       </div>
-  <p>{coinData.description.en}</p>
-      {console.log(coinData)}
+      <p>{coinData.description.en}</p>
     </div>
   );
 }
